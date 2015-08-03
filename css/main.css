@@ -198,7 +198,6 @@ h1 {
 
 @media (min-width: 600px) {
    .mainBox {
-        background-color: lightblue;
         position: absolute;
         height: 40em;
         width: 50em;
