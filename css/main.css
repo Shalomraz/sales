@@ -122,44 +122,147 @@ footer {
 
 /*********************************************************/
 
-body { 
-    /*background-color: red;*/
+html {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
 }
 
-.back {
-  display: block;
-  position:absolute;
-  padding: 10em; 
-  right: 1em;
-  top: 1em; 
+.mainBox {
+  height: 12.50em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  /*height: 5em;*/
+  position: absolute;
+  width: 10em;
+}
+
+.title {
+    top: 10%;
+    left: 2%;
 }
 
 h1 {
     font-size: 1.3em;
-    bottom: 10em;
-    position: absolute;
 }
 
-.title {
-    display: inline-block;
-    position: absolute;
-    padding: 2em;
-    width: 11em;
+.price {
+    top: 40%;
+    left: 2%;
+}
+
+.back {
+    top: 10%;
+    right: 1em;
+}
+
+.quantity {
+    top: 40%;
+    bottom: 2em;
+    right: 1em;
 }
 
 #txt_quantity {
     width: 2em;
+}
+
+.product-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 60%;  
+}
+
+.product-description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 8em;
+}
+
+.total {
+    position: relative;
+    top: 10em;
+}
+
+.checkout-button {
     position: absolute;
+    top: 38em;
+    right: 3em;
 }
 
 @media (min-width: 600px) {
-   body { 
-       background-color: blue; 
-   }
+   .mainBox {
+        background-color: lightblue;
+        position: absolute;
+        height: 40em;
+        width: 50em;
+        margin: -20%  -25% auto;
+        top: 50%;
+        left: 50%;
+    }
+
+   .box {
+      /*height: 5em;*/
+      position: absolute;
+      width: 10em;
+    }
+
+   .product-image {
+        top: 10%;
+        left: -39%; 
+    }
+
+   .title {
+        top: 10%;
+        left: 23%;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    .price {
+        top: 20%;
+        left: 23%;
+    }
+
+    .back {
+        top: 78%;
+        right: 39em;
+    }
+
+    .quantity {
+        top: 20%;
+        bottom: 2em;
+        right: 1em;
+    }
+
+    #txt_quantity {
+        width: 2em;
+    }
+
+    .product-description {
+        position: relative;
+        left: 4em;
+        width: 36em;
+        top: 1em;
+    }
+
+    .total {
+        position: relative;
+        top: 10em;
+        left: 35em;
+    }
+
+    .checkout-button {
+        position: absolute;
+        top: 37.5em;
+        right: 3em;
+    }
 }
-
-
-
-
-
-

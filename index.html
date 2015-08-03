@@ -10,28 +10,35 @@
 <body>
 
     <div class="mainBox">
-        <div class="title">
+        <div class="box title">
             <h1></h1>
-            <p class="price">Price: </p>
         </div>
 
-        <div class="back">
+        <div class="box price">
+            Price: 
+        </div>
+
+        <div class="box back">
             <a href="#">Back to all</a>
         </div>
-        <div>
+        <div class="box quantity">
             Quantity: 
             <input type="text" name="quantity" id="txt_quantity" />
         </div>
 
         <img src="" alt="Image of product" class="product-image" />
-        <p class="description"></p>
-        <a href="" class="paragraph-link">Unassigned link</a>
-        <p><a href="" class="web-link">Product page</a></p>
+        
+        <div class="product-description">
+            <p class="description"></p>
+            <a href="" class="paragraph-link">Unassigned link</a>
+            <p><a href="" class="web-link">Product page</a></p>
+        </div>
 
         <div class="total">
             <p class="final-sum">Total: </p>
-            <button name="checkout" class="checkout-button">Checkout</button>
         </div>
+        
+        <button name="checkout" class="checkout-button">Checkout</button>
     </div>
 
     <script src="http://www.geoplugin.net/javascript.gp"></script>
